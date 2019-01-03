@@ -1,4 +1,7 @@
 language: "python"
+# workaround settings for python 3.7 on travis
+sudo: required
+dist: xenial
 
 python:
    - "2.6"
